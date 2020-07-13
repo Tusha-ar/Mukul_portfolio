@@ -5,8 +5,9 @@
 }
 .sign{
     font-family: mukul_sign;
+    display: flex;
+    justify-content: center;
     padding: 10px;
     font-size: 100px;
-    text-align: center;
     font-weight: 500;
 }

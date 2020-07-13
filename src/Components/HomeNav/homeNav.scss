@@ -1,8 +1,8 @@
 .HomeNav{
     padding: 5% 20%;
-    height: 50vh;
+    height: auto;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 200px 200px;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
     & div{
@@ -44,33 +44,33 @@
     }
     & .photos{
         // background-image: url('../../Assets/img.JPG');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: 50%;
+        background-color: black;
+        color: white;
     }
     & .videos{
         // background-image: url('../../Assets/img.JPG');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: 50%;
+        background-color: black;
+        color: white;
     }
     & .insta{
         // background-image: url('../../Assets/img.JPG');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: 50%;
+        background-color: black;
+        color: white;
     }
     & .youtube{
         // background-image: url('../../Assets/img.JPG');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-y: 50%;
+        background-color: black;
+        color: white;
     }
 }
 
 @media screen and (max-width: '800px'){
     .HomeNav{
-        grid-auto-rows: 50%;
-        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+        & div{
+            margin-top: 10%;
+            padding: 50px 1px;
+        }
     }
 }

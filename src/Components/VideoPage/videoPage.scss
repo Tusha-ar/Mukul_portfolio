@@ -15,3 +15,18 @@
         }
     }
 }
+
+@media screen and (max-width: '700px'){
+
+    .videoPage{
+        & .youtube_videos{
+            & iframe{
+                height: 300px;
+                width: 300px;
+            }
+            & h3{
+                font-size: 15px;
+            }
+        }
+    }
+}
