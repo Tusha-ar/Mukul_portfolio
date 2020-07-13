@@ -39,29 +39,29 @@
         transform: translateX(0);
     }
     & div:hover{
-
+        color: white;
         transform: scale(1);
     }
     & .photos{
-        background-image: url('../../Assets/img.JPG');
+        // background-image: url('../../Assets/img.JPG');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: 50%;
     }
     & .videos{
-        background-image: url('../../Assets/img.JPG');
+        // background-image: url('../../Assets/img.JPG');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: 50%;
     }
     & .insta{
-        background-image: url('../../Assets/img.JPG');
+        // background-image: url('../../Assets/img.JPG');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: 50%;
     }
     & .youtube{
-        background-image: url('../../Assets/img.JPG');
+        // background-image: url('../../Assets/img.JPG');
         background-repeat: no-repeat;
         background-size: cover;
         background-position-y: 50%;

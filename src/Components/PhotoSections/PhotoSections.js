@@ -45,22 +45,19 @@ const PhotoSections = ()=>{
                 </div>
                 <div>
                 <img src={require('../../Assets/tarvel/Screenshot (17)-min.png')} alt='img1'/>
-                <h3>delhi x india</h3>
+                <h3>Triund x india</h3>
                 </div>
                 <div>
                 <img src={require('../../Assets/tarvel/Screenshot (18)-min.png')} alt='img1'/>
-                <h3>delhi x india</h3>
+                <h3>Triund x india</h3>
                 </div>
                 <div>
                 <img src={require('../../Assets/tarvel/Screenshot (19)-min.png')} alt='img1'/>
-                <h3>delhi x india</h3>
-                </div>
-                <div>
-
+                <h3>Triund x india</h3>
                 </div>
                 <div>
                 <img src={require('../../Assets/tarvel/Screenshot (20)-min.png')} alt='img1'/>
-                <h3>delhi x india</h3>
+                <h3>Triund x india</h3>
                 </div>
                 </div>
             </div>
@@ -76,14 +73,14 @@ const PhotoSections = ()=>{
                     <img src={require('../../Assets/street/Screenshot_20200709-160428__01-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/street/Screenshot_20200709-160433__01-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/street/Screenshot_20200709-160440__01-min.jpg')} alt ='img'/>
-                    <img src={require('../../Assets/street/Screenshot_20200709-160448__01-min.jpg')} alt ='img'/>
-                    <img src={require('../../Assets/street/Screenshot_20200709-160503__01-min.jpg')} alt ='img'/>
-                    <img src={require('../../Assets/street/Screenshot_20200709-160512__01-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/street/Screenshot_20200709-160448__01-min.jpg')} alt ='img'/>                    <img src={require('../../Assets/street/Screenshot_20200709-160512__01-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/street/Screenshot_20200709-160518__01__01-min.jpg')} alt ='img'/>
-                    <span></span>
+                    {/* <span></span> */}
                     <img src={require('../../Assets/street/Screenshot_20200709-160526__01-min.jpg')} alt ='img'/>
                 </div>
                 <div className='landscape'>
+                <img src={require('../../Assets/street/Screenshot_20200709-160503__01-min.jpg')} alt ='img'/>
+
                 <img src={require('../../Assets/street/Screenshot_20200709-160410__01__01-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/street/Screenshot_20200709-160416__01-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/street/Screenshot_20200709-160423__01-min.jpg')} alt ='img'/>
@@ -93,6 +90,7 @@ const PhotoSections = ()=>{
                 <h1>people</h1>
                 <div className='portrait'>
                     <img src={require('../../Assets/people/ANMOL_KURTA1-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/people/Screenshot_20200712-201720__01.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL_KURTA-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL1-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ashu-min.jpg')} alt='img'/>
@@ -105,13 +103,13 @@ const PhotoSections = ()=>{
                     <img src={require('../../Assets/people/Screenshot_20200712-194521-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194830__01-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194835__01-min.jpg')} alt='img'/>
-                    <img src={require('../../Assets/people/Screenshot_20200712-194842__01-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-202323__01-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/VB5-min.jpg')} alt='img'/>
-                    <div></div>
+                    {/* <div></div> */}
                     <img src={require('../../Assets/people/VB2-min.jpg')} alt='img'/>
                 </div>  
                 <div className='landscape'>
+                    <img src={require('../../Assets/people/Screenshot_20200712-201734__01.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (26)-min.png')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (21)-min.png')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (27)-min.png')} alt='img'/>
