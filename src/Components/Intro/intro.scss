@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'mukul';
+    src: url('../../Assets/Fonts/Cornelia\ -\ Serif\ Regular.ttf');
+    font-weight: 400;
+}
+
+.intro{
+    background-color: black;
+    color: white;
+    font-size: 38px;
+    font-family: mukul;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    padding: 10px 0;
+    letter-spacing: 8px;
+    text-align: center;
+}

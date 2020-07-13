@@ -1,0 +1,36 @@
+.photoNav{
+    & .left{
+        position: fixed;
+        top: 40%;
+        margin-left: -4.9%;
+        transform: rotate(270deg);
+        & span{
+            cursor: pointer;
+            // border: 1px solid red;
+            background-color: black;
+            color: white;
+            padding: 2px 10px;
+            margin-left: 5%;
+            text-transform: uppercase;
+        }
+    }
+    & .right{
+        position: fixed;
+        top: 40%;
+        right: -4.2%;
+        transform: rotate(90deg);
+        & span{
+            cursor: pointer;
+            // border: 1px solid red;
+            background-color: black;
+            color: white;
+            padding: 2px 10px;
+            margin-left: 5%;
+            text-transform: uppercase;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}

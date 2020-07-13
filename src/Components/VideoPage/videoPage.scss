@@ -1,0 +1,17 @@
+.videoPage{
+    & .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    & .youtube_videos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & iframe{
+            margin-top: 10%;
+        }
+    }
+}

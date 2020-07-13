@@ -1,0 +1,11 @@
+.videoIntro{
+    overflow: hidden;
+    z-index: -8;
+    & video{
+        margin-top: 10%;
+        outline: none;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

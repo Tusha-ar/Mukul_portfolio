@@ -1,0 +1,34 @@
+.about{
+    height: 80%;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: row;
+    & img{
+        height: 100%;
+        width: 30%;
+    }
+    & .aboutText{
+        margin-left: 10%;
+        margin-top: 0%;
+        padding: 0 10%;
+        font-weight: 650;
+        text-align: justify;       
+        font-size: 16px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        line-height: 30px; 
+    }
+}
+
+
+@media screen and (max-width : '1000px'){
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & .aboutText{
+            margin-top: 5%;
+            font-size: 15px;
+        }
+    }
+}

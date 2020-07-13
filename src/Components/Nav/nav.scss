@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    & .nav_part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 30px;
+        width: 50%;
+        background-color: black;
+        color: white;
+        font-family: monospace;
+        font-size: 18px;
+    }
+}
+.link{
+    color: white;
+}

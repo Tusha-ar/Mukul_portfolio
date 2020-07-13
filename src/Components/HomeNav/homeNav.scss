@@ -1,0 +1,76 @@
+.HomeNav{
+    padding: 5% 20%;
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    & div{
+        cursor: pointer;
+        font-weight: bolder;
+        font-size: 25px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0.8);
+        transition: 0.4s ease-out;
+        & h3{
+            margin: 0;
+            padding: 0 3px;
+            float: left;
+            position: relative;
+            text-transform: uppercase;
+            overflow: hidden;
+            letter-spacing: 3px;
+        }
+    }
+    & div::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($color: #393e46, $alpha: 0.3);
+        transform: translateX(-100%);
+        transition: 0.5s ease-in;
+    }
+    & div:hover::before{
+        transform: translateX(0);
+    }
+    & div:hover{
+
+        transform: scale(1);
+    }
+    & .photos{
+        background-image: url('../../Assets/img.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+    & .videos{
+        background-image: url('../../Assets/img.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+    & .insta{
+        background-image: url('../../Assets/img.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+    & .youtube{
+        background-image: url('../../Assets/img.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 50%;
+    }
+}
+
+@media screen and (max-width: '800px'){
+    .HomeNav{
+        grid-auto-rows: 50%;
+        grid-template-columns: 100%;
+    }
+}
