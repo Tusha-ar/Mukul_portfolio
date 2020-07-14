@@ -1,5 +1,6 @@
 import React from 'react';
 import './videoPage.scss'
+import Team from '../team/Team';
 
 
 const VideoPage = () =>{
@@ -8,7 +9,7 @@ const VideoPage = () =>{
         <div className='videoPage'>
             <div className='logo'>
                 <a href='https://www.youtube.com/channel/UCelbzlW3n8pcvMpDKUwdMsA' target='_'><img src={require('../../Assets/logo.jpg')} alt='logo'/></a>
-                <h3 style={{fontFamily: 'monospace' ,fontWeight: '450'}}>Subscribe to our channel => <a href='https://www.youtube.com/channel/UCelbzlW3n8pcvMpDKUwdMsA' target='_' style={{color: "black", fontWeight: '800'}}>Here</a></h3>
+                <a href='https://www.youtube.com/channel/UCelbzlW3n8pcvMpDKUwdMsA' target='_'><button>Subscribe</button></a>
             </div>
             <div className='youtube_videos'>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/T3eyYA2HjCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='video'></iframe>
@@ -28,6 +29,7 @@ const VideoPage = () =>{
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rV7AOHGTfZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='video'></iframe>
             <h3>mukulreru | mayanksingh</h3>
             </div>
+            <Team/>
         </div>
     )
 }

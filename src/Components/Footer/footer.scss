@@ -1,0 +1,16 @@
+.footer{
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & span{
+        & a{
+            color: white;
+            text-decoration: underline;
+        }
+        margin-top: 10px;
+    }
+}

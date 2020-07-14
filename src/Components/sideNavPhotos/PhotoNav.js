@@ -7,7 +7,7 @@ const PhotoNav=()=>{
         <div className='photoNav'>
             <div className='left'>
                 <a href='#people'><span>People</span></a>
-                <span>Marrige</span>
+                <a href='#marriage'><span>Marrige</span></a>
             </div>
             <div className='right'>
                 <a href='#street'><span>Street</span></a>

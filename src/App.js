@@ -7,6 +7,8 @@ import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Photos from './Components/Photos/Photos';
 import Sign from './Components/sign/Sign';
 import VideoPage from './Components/VideoPage/VideoPage';
+import Conatct from './Components/Contact/Contact';
+import Footer from './Components/Footer/footer';
 
 
 
@@ -22,9 +24,11 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/photos' component={Photos}/>
         <Route path='/videos' component={VideoPage}/>
+        <Route path='/contact' component={Conatct}/>
         </Switch>
-      </BrowserRouter>
       <Sign/>
+      <Footer/>
+      </BrowserRouter>
     </div>
   );
 }

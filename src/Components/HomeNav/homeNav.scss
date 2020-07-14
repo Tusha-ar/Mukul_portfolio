@@ -5,6 +5,7 @@
     grid-template-rows: 200px 200px;
     grid-template-columns: 50% 50%;
     grid-gap: 20px;
+
     & div{
         cursor: pointer;
         font-weight: bolder;
@@ -45,22 +46,26 @@
     & .photos{
         // background-image: url('../../Assets/img.JPG');
         background-color: black;
+        height: 100%;
         color: white;
     }
     & .videos{
         // background-image: url('../../Assets/img.JPG');
         background-color: black;
+        height: 100%;
         color: white;
     }
     & .insta{
         // background-image: url('../../Assets/img.JPG');
         background-color: black;
         color: white;
+        height: 100%;
     }
     & .youtube{
         // background-image: url('../../Assets/img.JPG');
         background-color: black;
         color: white;
+        height: 100%;
     }
 }
 

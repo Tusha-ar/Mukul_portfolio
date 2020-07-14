@@ -119,6 +119,39 @@ const PhotoSections = ()=>{
             </div>
             <div id='marriage'>
                 <h1>marriage</h1>
+                <div className='portrait'>
+                <img src={require('../../Assets/Marriage/ad2-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ad5-min (1).jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ad6-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ADN-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ANUPDEPTI-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ARRAVNEHA-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ARRAVNEHA-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/CHURA-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/DEEPTI_Q-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/DEEPTIMEHNDI-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/havan_ns_LG-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/lehnga-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/mamagdori_ns_lg-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/NA-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/ND-min (1).jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/NDSA-min (1).jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/NDS-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/NEHAD_Q-min (1).jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/PAIR-min (1).jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/PATAKADULHAN_US-min.jpg')} alt='img'/>
+                <img src={require('../../Assets/Marriage/patakadulhan-min.jpg')} alt='img'/>
+                </div>
+                <div className='landscape'>
+                    <img src={require('../../Assets/Marriage/DEEPTISLEEPING-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/flower_ns-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/hcloth_ls_lg-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/mangalsutr_LG-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/manglsutr_masi_us_LG-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/mytar_us_lg-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/pnadit_us_lg-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/Marriage/siling_ns_LG-min.jpg')} alt='img'/>
+                </div>
             </div>
         </div>
     )

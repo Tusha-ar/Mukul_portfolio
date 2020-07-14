@@ -24,7 +24,9 @@ const Nav = ()=>{
                     </Link>
                 </span>
                 <span>
+                    <Link to='/contact' className='link'>
                     Contact
+                    </Link>
                 </span>
             </div>
         </div>
