@@ -24,7 +24,7 @@ const Team = () =>{
             <div>
                 <img src={require('../../Assets/Team/tushar.jpg')} alt='img'/>
                 <span>Tushar</span>
-                <span>Web Manager</span>
+                <span>Web creator and Manager</span>
             </div>
             </div>
         </div>
