@@ -5,8 +5,7 @@ import PhotoSections from '../PhotoSections/PhotoSections';
 
 const Photos =()=>{
     return(
-        <div 
-        className='photos'>
+        <div className='photos' id='photos'>
             <PhotoNav/>
             <p>
                 I hope you like these clicks.
