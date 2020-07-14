@@ -97,6 +97,7 @@ const PhotoSections = ()=>{
                     <img src={require('../../Assets/people/ashu-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (23)-min.png')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (28)-min.png')} alt='img'/>
+                    <img src={require('../../Assets/people/WhatsApp Image 2020-07-14 at 15.35.41.jpeg')} alt='img'/>
                     <img src={require('../../Assets/people/end.jpeg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194032-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194141-min.jpg')} alt='img'/>
