@@ -89,6 +89,7 @@ const PhotoSections = ()=>{
             <div id='people'>
                 <h1>people</h1>
                 <div className='portrait'>
+                    <img src={require('../../Assets/people/anmol chaudhary.jpeg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL_KURTA1-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-201720__01.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL_KURTA-min.jpg')} alt='img'/>

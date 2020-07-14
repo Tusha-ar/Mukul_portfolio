@@ -6,7 +6,7 @@ const Footer = () =>{
     return(
         <div className='footer'>
             <Link to='/contact' className='link'>
-                Conatct Us
+                Conatct
             </Link>
         </div>
     )

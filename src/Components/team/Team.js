@@ -7,7 +7,7 @@ const Team = () =>{
             <h2>Video Team</h2>
             <div>
             <div>
-                <img src={require('../../Assets/Team/anmol chaudhary.png')} alt='img'/>
+                <img src={require('../../Assets/Team/anmol chaudhary.jpeg')} alt='img'/>
                 <span>Anmol Chaudhary</span>
                 <span>Lyricist</span>
             </div>
