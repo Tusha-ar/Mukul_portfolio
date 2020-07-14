@@ -11,9 +11,9 @@ Right now am pursuing my BE in computer science from Chitkara University,Punjab.
 
  <p>So about my photography I started clicking photos as a hobby but now am seeking this as my full time Career.I do street , travel , portraits and wedding shots. </p>
 
-As a cinematographer I am still exploring myself but am quite good at editing . 
+As a cinematographer I am still exploring myself but am quite good at editing. 
 
-I live in Punjab India and would love to connect with you to discuss how we can create what you need together.
+<br/><br/>I live in Punjab India and would love to connect with you to discuss how we can create what you need together.
             </div>
         </div>
     )
