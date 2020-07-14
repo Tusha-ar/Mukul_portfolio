@@ -8,7 +8,6 @@ const Footer = () =>{
             <Link to='/contact' className='link'>
                 Conatct Us
             </Link>
-            <span>Website made by <a href='https://www.instagram.com/tusha_aar/'>Tushar</a></span>
         </div>
     )
 }
