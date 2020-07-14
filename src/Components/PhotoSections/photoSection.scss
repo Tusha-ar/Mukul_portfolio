@@ -22,12 +22,8 @@
             justify-items: center;
             align-items: center;
             & img{
-                transition: 0.3s ease-out;
                 height: 90%;
                 width: 90%;
-            }
-            & img:hover{
-                transform: scaleY(1.2);
             }
             & div{
                 display: flex;
@@ -51,9 +47,6 @@
                 transition: 0.3s ease-out;
                 height: 90%;
                 width: 90%;
-            }
-            & img:hover{
-                transform: scaleX(1.1);
             }
         }
         & .portrait{
