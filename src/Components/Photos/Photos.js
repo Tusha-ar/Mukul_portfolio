@@ -9,7 +9,7 @@ const Photos =()=>{
         className='photos'>
             <PhotoNav/>
             <p>
-                I hope you will like it!!
+                I hope you like these clicks.
             </p>
             <PhotoSections/>
         </div>
