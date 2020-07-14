@@ -17,7 +17,7 @@ const HomeNav=()=>{
             </Link>
             <a href='https://www.instagram.com/mukulreru/' target='_' className='link'>
             <div className='insta'>
-                <h3>Instsgram</h3>
+                <h3>Instagram</h3>
             </div>
             </a>
             <a href='https://www.youtube.com/channel/UCelbzlW3n8pcvMpDKUwdMsA' target='_' className='link'>
