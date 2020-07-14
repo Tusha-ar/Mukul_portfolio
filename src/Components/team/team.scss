@@ -30,7 +30,21 @@
             }
             & img{
                 height: 18em;
-                width: 15em;
+                width: 14em;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: '700px'){
+    .team{
+        & div{
+            & div{
+                & img{
+                    height: 14em;
+                    width: 10em;
+                }
             }
         }
     }
