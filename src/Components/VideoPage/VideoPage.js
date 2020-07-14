@@ -1,6 +1,8 @@
 import React from 'react';
 import './videoPage.scss'
 import Team from '../team/Team';
+import Sign from '../sign/Sign';
+import Footer from '../Footer/footer';
 
 
 const VideoPage = () =>{
@@ -30,6 +32,8 @@ const VideoPage = () =>{
             <h3>mukulreru | mayanksingh</h3>
             </div>
             <Team/>
+            <Sign/>
+      <Footer/>
         </div>
     )
 }
