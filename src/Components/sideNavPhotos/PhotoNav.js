@@ -10,6 +10,7 @@ const PhotoNav=()=>{
                 <a href='#marriage'><span>Marrige</span></a>
             </div>
             <div className='right'>
+                <a href='#products'><span>Products</span></a>
                 <a href='#street'><span>Street</span></a>
                 <a href='#travel'><span>Travel</span></a>
             </div>

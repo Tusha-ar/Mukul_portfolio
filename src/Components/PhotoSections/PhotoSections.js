@@ -61,6 +61,19 @@ const PhotoSections = ()=>{
                 </div>
                 </div>
             </div>
+            <div id='products'>
+                <h1>Products</h1>
+                <div className='portraitProduct'>
+                    <img src={require('../../Assets/products/POST1_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/post1-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/POST2_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/POST3_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/POST4_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/POST5_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/POST6_LOGO-min.jpg')} alt ='img'/>
+                    
+                </div>
+            </div>
             <div id='street'>
                 <h1>Street</h1>
                 <div className='portrait'>
@@ -97,10 +110,10 @@ const PhotoSections = ()=>{
                     <img src={require('../../Assets/people/ashu-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (23)-min.png')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (28)-min.png')} alt='img'/>
-                    <img src={require('../../Assets/people/WhatsApp Image 2020-07-14 at 15.35.41.jpeg')} alt='img'/>
+                    {/* <img src={require('../../Assets/people/WhatsApp Image 2020-07-14 at 15.35.41.jpeg')} alt='img'/> */}
                     <img src={require('../../Assets/people/end.jpeg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194032-min.jpg')} alt='img'/>
-                    <img src={require('../../Assets/people/Screenshot_20200712-194141-min.jpg')} alt='img'/>
+                    {/* <img src={require('../../Assets/people/Screenshot_20200712-194141-min.jpg')} alt='img'/> */}
                     <img src={require('../../Assets/people/Screenshot_20200712-194233-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194455-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-194521-min.jpg')} alt='img'/>
@@ -123,18 +136,16 @@ const PhotoSections = ()=>{
             <div id='marriage'>
                 <h1>marriage</h1>
                 <div className='landscape'>
-                <img src={require('../../Assets/Marriage/siling_ns_LG-min.jpg')} alt='img'/> 
-                <img src={require('../../Assets/Marriage/pnadit_us_lg-min.jpg')} alt='img'/>   
+                    <img src={require('../../Assets/Marriage/siling_ns_LG-min.jpg')} alt='img'/> 
+                    <img src={require('../../Assets/Marriage/pnadit_us_lg-min.jpg')} alt='img'/>   
                     <img src={require('../../Assets/Marriage/DEEPTISLEEPING-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/Marriage/flower_ns-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/Marriage/hcloth_ls_lg-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/Marriage/mangalsutr_LG-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/Marriage/manglsutr_masi_us_LG-min.jpg')} alt='img'/>
-                    <img src={require('../../Assets/Marriage/mytar_us_lg-min.jpg')} alt='img'/>
-                    
-                    
+                    <img src={require('../../Assets/Marriage/mytar_us_lg-min.jpg')} alt='img'/>    
                 </div>
-                <div className='portrait'>
+                <div className='portraitMarriage'>
                 <img src={require('../../Assets/Marriage/ad2-min.jpg')} alt='img'/>
                 <img src={require('../../Assets/Marriage/ad5-min (1).jpg')} alt='img'/>
                 <img src={require('../../Assets/Marriage/ad6-min.jpg')} alt='img'/>
