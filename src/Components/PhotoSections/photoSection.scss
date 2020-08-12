@@ -23,7 +23,7 @@
             align-items: center;
             & img{
                 height: 90%;
-                width: 90%;
+                width: 98%;
             }
             & div{
                 display: flex;
@@ -41,12 +41,13 @@
         & .landscape{
             display: grid;
             justify-content: center;
-            grid-template-columns: 58%;
-            grid-auto-rows: 450px;
+            align-items: center;
+            grid-template-columns: 50% 50%;
+            grid-auto-rows: 400px;
             & img{
                 transition: 0.3s ease-out;
-                height: 90%;
-                width: 90%;
+                height: 100%;
+                width: 100%;
             }
         }
         & .portraitProduct{
@@ -58,8 +59,8 @@
             align-items: center;
             & img{
                 transition: 0.3s ease-out;
-                height: 93%;
-                width: 88%;
+                height: 98%;
+                width: 98%;
             }
             
             & div{
@@ -110,8 +111,8 @@
             align-items: center;
             & img{
                 transition: 0.3s ease-out;
-                height: 93%;
-                width: 93%;
+                height: 98%;
+                width: 98%;
             }
             
             & div{

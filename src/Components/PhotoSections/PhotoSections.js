@@ -47,10 +47,10 @@ const PhotoSections = ()=>{
                 <img src={require('../../Assets/tarvel/Screenshot (17)-min.png')} alt='img1'/>
                 <h3>Triund x india</h3>
                 </div>
-                <div>
+                {/* <div>
                 <img src={require('../../Assets/tarvel/Screenshot (18)-min.png')} alt='img1'/>
                 <h3>Triund x india</h3>
-                </div>
+                </div> */}
                 <div>
                 <img src={require('../../Assets/tarvel/Screenshot (19)-min.png')} alt='img1'/>
                 <h3>Triund x india</h3>
@@ -65,7 +65,7 @@ const PhotoSections = ()=>{
                 <h1>Products</h1>
                 <div className='portraitProduct'>
                     <img src={require('../../Assets/products/POST1_LOGO-min.jpg')} alt ='img'/>
-                    <img src={require('../../Assets/products/post1-min.jpg')} alt ='img'/>
+                    {/* <img src={require('../../Assets/products/post1-min.jpg')} alt ='img'/> */}
                     <img src={require('../../Assets/products/POST2_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST3_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST4_LOGO-min.jpg')} alt ='img'/>
