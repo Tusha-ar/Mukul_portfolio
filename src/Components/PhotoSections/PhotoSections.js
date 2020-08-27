@@ -64,13 +64,21 @@ const PhotoSections = ()=>{
             <div id='products'>
                 <h1>Products</h1>
                 <div className='portraitProduct'>
-                    <img src={require('../../Assets/products/POST1_LOGO-min.jpg')} alt ='img'/>
-                    {/* <img src={require('../../Assets/products/post1-min.jpg')} alt ='img'/> */}
+                    <img src={require('../../Assets/products/ROLEX1_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/ROLEX2_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/ROLEX3_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/ROLEX4_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/ROLEX5_POST-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST2_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST3_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST4_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST5_LOGO-min.jpg')} alt ='img'/>
                     <img src={require('../../Assets/products/POST6_LOGO-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/REDBULL_POST_1-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/REDBULL_POST_5_FORINSTA-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/AIRPODS1_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/AIRPODS2_POST-min.jpg')} alt ='img'/>
+                    <img src={require('../../Assets/products/AIRPODS3_POST-min.jpg')} alt ='img'/>
                     
                 </div>
             </div>
@@ -102,7 +110,9 @@ const PhotoSections = ()=>{
             <div id='people'>
                 <h1>people</h1>
                 <div className='portrait'>
+                    <img src={require('../../Assets/people/FASHION_POST3-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/anmol chaudhary.jpeg')} alt='img'/>
+                    <img src={require('../../Assets/people/FASHION_POST1-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL_KURTA1-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-201720__01.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/ANMOL_KURTA-min.jpg')} alt='img'/>
@@ -125,6 +135,10 @@ const PhotoSections = ()=>{
                     <img src={require('../../Assets/people/VB2-min.jpg')} alt='img'/>
                 </div>  
                 <div className='landscape'>
+                    <img src={require('../../Assets/people/POST3KAMAL-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/people/POST2KAMAL-min.jpg')} alt='img'/>
+                    <img src={require('../../Assets/people/FASHION_POST2-min.jpg')} alt='img'/> 
+                    <img src={require('../../Assets/people/POST1CROP-min.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot_20200712-201734__01.jpg')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (26)-min.png')} alt='img'/>
                     <img src={require('../../Assets/people/Screenshot (21)-min.png')} alt='img'/>
